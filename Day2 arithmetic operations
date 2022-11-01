@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+{
+    int sum, sub, mul, div, func;
+    float a, b;
+
+
+    printf("FIRST NUM : \n ");
+    scanf("%f", &a);
+
+    printf("SECOND NUM : \n ");
+    scanf("%f", &b);
+
+    printf("CHOSE THE FUNCTION : \n1.sum\n 2.sub\n 3.mul\n 4.div\n");
+    scanf("%d", &func);
+
+    if (func==1)
+    {
+        printf("the addition is %f", a+b);
+    }
+     else if(func==2)
+    {
+        printf("the substraction is %f", a-b);
+        }
+
+    else if(func==3)
+    {
+        printf("the multiplication is %f", a*b);
+        }
+
+    else if(func==4)
+    {
+        printf("the division is %f", a/b);
+        }
+
+
+    return 0;
+}
